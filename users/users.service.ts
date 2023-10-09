@@ -7,6 +7,7 @@ import { Injectable } from '@nestjs/common';
 @Injectable()
 export class UsersService {
     getUsers(): string {
-        return 'Users';
+        let abc = Math.random() * 33
+        return abc.toString();
     }
 }
